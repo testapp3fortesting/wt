@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>key event</title>
+</head>
+<body>
+    <p>Press a key to enter information</p>
+    <input type="text" id="Input">
+    <script>
+        document.onkeydown = (event)=>{
+            alert("You have Pressed : "+event.key);
+        };
+
+        let x = document.getElementById("Input");
+        x.onkeypress =  (e)=>{
+            alert("You have pressed key inside input field");
+        };
+    </script>
+</body>
+</html>

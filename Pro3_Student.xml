@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet href = "Pro3_Student.css" type = "text/css"?>
+
+<student>
+    <id>1</id>
+    <name>Vasundhara Laykar</name>
+    <email>vasundhara.18@gmail.com</email>
+    <department>CSE</department>
+</student>

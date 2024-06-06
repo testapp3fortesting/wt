@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Pro6_xslif.xsl" type="text/xsl"?>
+
+<students>
+    <student>
+        <name>Vasundhara</name>
+        <age>20</age>
+    </student>
+    <student>
+        <name>Shree</name>
+        <age>14</age>
+    </student>
+</students>

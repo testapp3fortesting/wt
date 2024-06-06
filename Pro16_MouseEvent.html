@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Event</title>
+</head>
+<body>
+    <p id="mypara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam at ipsum aspernatur itaque velit quisquam quas fuga laboriosam, hic ducimus dolor qui sunt, quaerat commodi non ut, iure labore esse.
+    Recusandae excepturi consectetur quia, ipsa, maxime dolore provident incidunt nam alias, similique ex nihil ad temporibus eum aliquid adipisci vel inventore sint? Voluptas amet omnis corporis, perferendis dolore modi delectus.
+    Quaerat dicta recusandae reprehenderit odio dolor eius doloribus rerum, accusantium, dolorum explicabo commodi natus neque fugit quas! Quae quo quos tempora iusto adipisci! Veritatis, vero. Veniam modi necessitatibus consequatur architecto?
+    Est voluptate quia assumenda nulla sint placeat quae sapiente totam tenetur nihil, culpa consequatur atque beatae quibusdam dolores inventore explicabo sed nobis sunt. Hic, repellat eos odit similique dolor animi!Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem pariatur quo, consequatur sunt possimus incidunt eos eligendi corporis placeat quasi quibusdam repellat quae maiores voluptatibus repudiandae hic quis suscipit qui.</p>
+    <br><br>
+    <button id="btn1">Click me</button><br><br>
+    <button id="btn2">Click twice</button>
+    <script>
+        let myPara = document.getElementById("mypara");
+        let y = document.getElementById("btn2");
+        myPara.onmouseover = (e) =>{
+            myPara.style.color = "red";
+        }
+
+        myPara.onmouseleave = (e) =>{
+            myPara.style.color = "";
+        }
+
+        let btn1 = document.getElementById("btn1");
+        btn1.onclick = (e) =>{
+             alert("You have clicked btn !!");
+        }
+
+        y.ondbclick = (e) =>{
+            alert("You have clicked button twice");
+        }
+        
+    </script>
+</body>
+</html>
